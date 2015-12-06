@@ -166,7 +166,8 @@ Task("__CopyOutputToNugetFolder")
     .Does(() =>
 {
     foreach(var project in projectToNugetFolderMap.Keys) {
-        var sourceDir = srcDir + Directory(projectName + "." + project) + Directory("bin") + Directory(configuration);
+        // var sourceDir = srcDir + Directory(projectName + "." + project) + Directory("bin") + Directory(configuration);
+		var sourceDir = srcDir + Directory("bin") + Directory(configuration);
 
         foreach(var targetFolder in projectToNugetFolderMap[project]) {
             var destDir = buildDir + Directory("lib") + Directory(targetFolder);
