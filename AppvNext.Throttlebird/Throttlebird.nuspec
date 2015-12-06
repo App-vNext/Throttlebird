@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+ <metadata>
+   <owners>App vNext</owners>
+   <authors>Joel Hulen, App vNext</authors>
+   <description>
+     Throttlebird is a simple Http request throttler to help limit the number of client requests within a given period of time.
+   </description>
+   <language>en-US</language>
+   <licenseUrl>https://raw.github.com/App-vNext/Throttlebird/master/LICENSE.txt</licenseUrl>
+   <projectUrl>https://github.com/App-vNext/Throttlebird</projectUrl>
+   <tags>ASP.NET MVC HTTP Tools</tags>
+   <copyright>Copyright � 2015, App vNext</copyright>
+   <releaseNotes>
+     1.0.0
+     ---------------------
+     - Initial release
+   </releaseNotes>
+   <dependencies>
+   </dependencies> 
+ </metadata>
+ <files>
+   <file src="lib\**\*.*" target="lib" exclude="**\*.unsigned"/>
+ </files>
+</package>
