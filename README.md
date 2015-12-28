@@ -15,7 +15,7 @@ Throttlebird is a simple http request throttler to help limit the number of clie
 [![NuGet version](https://badge.fury.io/nu/Throttlebird.svg)](https://badge.fury.io/nu/Throttlebird)  [![Build status](https://ci.appveyor.com/api/projects/status/c2xv4a7fqmfml1qy?svg=true)](https://ci.appveyor.com/project/joelhulen/throttlebird)
 
 # Example
-In your WebApiConfig file under the App_Start folder of your ASP.NET MVC project, add the below code block within the Register method:
+In your WebApiConfig file under the App_Start folder of your ASP.NET MVC project, add the following code block within the Register method:
 
 ```csharp
 // Implement our custom throttling handler to limit API method calls.
