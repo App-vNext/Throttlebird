@@ -32,4 +32,4 @@ config.MessageHandlers.Add(new ThrottlingHandler(
 This works across all http requests on your site, limiting the number of requests to 3 every 5 seconds. To adjust, simply modify the *id* parameter to the number of requests, and the timespan to any valid TimeSpan value (FromSeconds, FromMinutes, etc.) to the values that work for you.
 
 # More to Come
-This is the the first iteration of this library. Future expansions will allow you to selectively apply throttling on specific controller actions through the use of attributes.
+This is the first iteration of this library. Future expansions will allow you to selectively apply throttling on specific controller actions through the use of attributes.
